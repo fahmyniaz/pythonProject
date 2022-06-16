@@ -1,8 +1,8 @@
 import csv
 
-file_path = "./data/csv/songs.csv"
+file_path = "./songs.csv"
 
-with open(file_path) as csv_file:
+with open("songs.csv") as csv_file:
         csv_reader = csv.reader(csv_file)
 
         headings = next(csv_reader)
